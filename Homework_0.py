@@ -8,9 +8,8 @@ def welcome():
     while c > 0:
         name = input("Your Name: ")
         if name == student_name:
-            c = 0
             return print("Welcome, " + name)
-        elif name != student_name and c > 0:
+        elif name != student_name:
             c -= 1
             print("Wrong name, try again.")
     sys.exit("Please try again later.")
@@ -44,14 +43,14 @@ def exam_result():
     project_grade = int(exam_grades[2])
     final_grade = (midterm_grade * 0.3) + (final_grade * 0.5) + (project_grade * 0.2)
     if final_grade > 90:
-        return print("Your final grade in " + exam_course + " is AA with: " + str(final_grade))
+        return print("Your final grade in " + exam_course + " is AA with a score of " + str(final_grade) + ".")
     elif final_grade > 70:
-        return print("Your final grade in " + exam_course + " is BB with: " + str(final_grade))
+        return print("Your final grade in " + exam_course + " is BB with a score of " + str(final_grade) + ".")
     elif final_grade > 50:
-        return print("Your final grade in " + exam_course + " is CC with: " + str(final_grade))
+        return print("Your final grade in " + exam_course + " is CC with a score of " + str(final_grade) + ".")
     elif final_grade > 30:
-        return print("Your final grade in " + exam_course + " is DD with: " + str(final_grade))
+        return print("Your final grade in " + exam_course + " is DD with a score of " + str(final_grade) + ".")
     else:
-        return print("Your final grade is FF in " + exam_course + " with: " + str(final_grade) + ". You failed this class.")
+        return print("Your final grade is FF in " + exam_course + " with a score of " + str(final_grade) + ". You failed this class.")
 
 exam_result()
