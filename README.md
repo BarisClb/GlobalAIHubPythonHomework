@@ -1,6 +1,6 @@
 # Repository içindeki dosyaları incelemeden önce lütfen okuyunuz.
 
-Bu repository, Turkish_AI_Hub_Turkey tarafından 21.12.2020 - 26.12.2020 tarihleri arasında sunulan Python_Course için, Barış Çelebi tarafından hazırlanmış ödevler klasörüdür.
+Bu repository, Turkish_AI_Hub_Turkey tarafından 21.12.2020 - 25.12.2020 tarihleri arasında sunulan Python_Course için, Barış Çelebi tarafından hazırlanmış ödevler klasörüdür.
 
 Önemli not:
 
